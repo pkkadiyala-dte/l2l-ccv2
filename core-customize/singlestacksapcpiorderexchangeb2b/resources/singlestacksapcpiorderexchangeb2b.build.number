@@ -1,0 +1,11 @@
+#Ant properties
+#Fri Oct 04 09:56:43 CEST 2019
+version.api=1905
+vendor=hybris
+group.id=de.hybris.platform
+name=singlestacksapcpiorderexchangeb2b
+description=singlestacksapcpiorderexchangeb2b
+builddate=20191004 0956
+releasedate=20190628 1509
+version=1905.5
+module.name=platform-module

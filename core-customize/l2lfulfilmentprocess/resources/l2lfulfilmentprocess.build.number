@@ -1,0 +1,11 @@
+#Ant properties
+#Fri Feb 07 22:25:31 CET 2020
+version.api=1905
+vendor=hybris
+group.id=de.hybris.platform
+name=l2lfulfilmentprocess
+description=l2lfulfilmentprocess
+builddate=20200207 2221
+releasedate=20190628 1509
+version=1905.11
+module.name=platform-module
