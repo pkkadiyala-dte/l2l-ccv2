@@ -168,19 +168,15 @@
                 },
                 {
                     "name": "yacceleratorstorefront",
-                    "contextPath": ""
+                    "contextPath": "/yacceleratorstorefront"
                 },
                 {
                     "name": "yb2bacceleratorstorefront",
-                    "contextPath": ""
+                    "contextPath": "/yb2bacceleratorstorefront"
                 },
                 {
                     "name": "oauth2",
                     "contextPath": "/authorizationserver"
-                },
-                {
-                    "name": "gigya",
-                    "contextPath": "/gigyaraas"
                 }
                 
             ]
