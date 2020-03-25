@@ -1,0 +1,261 @@
+{
+    "commerceSuiteVersion": "1905.12",
+    "extensions": [
+
+	"datahubadapter",
+	"datahubbackoffice",
+    "sapcoreaddon",
+    "sapcoreconfigurationbackoffice",
+    "sapmodelbackoffice",
+    "sapcustomerb2bbackoffice",
+	"b2bsappricing",
+    "sappricingbackoffice",
+	"saporderexchangeb2b",
+    "saporderexchangebackoffice",
+	"sapordermgmtbackoffice",
+	"b2bsapproductavailability",
+    "sapproductavailabilitybackoffice",
+    "sapcreditcheckbackoffice",
+    "sapcoretest",
+    "sapreturnsexchange",
+    "sapreturnsexchangeb2b",
+	"sapcoreaddon",
+	"sapcoreaddon",
+	"saporderexchangebackoffice",
+	"ysaporderfulfillment",    
+    "ysapordermgmtb2baddon",    
+    "ysaperpreturnprocess",       
+	"sapcpiadapter",
+	"sapcpicustomerexchange",
+	"sapcpiorderexchange",
+	"sapcpiorderexchangeb2b",
+	"sapcpiorderexchangeoms",
+	"sapcpiorderexchangeomsb2b",
+	"sapcpiproductexchange",
+	"sapcpicustomerexchangeb2b",
+	"odata2webservices",
+	"odata2webservicesfeaturetests",
+	"integrationbackoffice",
+	"outboundservices", 
+    "adaptivesearchsolr",
+    "adaptivesearchbackoffice",
+    "b2bcommercebackoffice",
+    "solrfacetsearchbackoffice",
+    "yacceleratorbackoffice",
+    "yacceleratorinitialdata",
+    "yacceleratorfulfilmentprocess",
+    "yacceleratorstorefront",
+    "ycommercewebservices",
+    "ycommercewebservicestest",
+    "apparelstore",
+    "electronicsstore",
+    "powertoolsstore",
+    "solrserver",
+    "acceleratorwebservicesaddon",
+    "b2bacceleratoraddon",
+    "commerceorgaddon",
+    "commerceorgsamplesaddon",
+    "orderselfserviceaddon",
+    "assistedservicestorefront",
+    "customerticketingaddon",
+    "customersupportbackoffice",
+    "rulebuilderbackoffice",
+    "couponbackoffice",
+    "droolsruleengineservices",
+    "couponfacades",
+    "couponservices",
+    "promotionenginesamplesaddon",
+    "textfieldconfiguratortemplatebackoffice",
+    "textfieldconfiguratortemplateaddon",
+    "cmswebservices",
+    "smarteditwebservices",
+    "permissionswebservices",
+    "smarteditaddon",
+    "cmssmartedit",
+    "previewwebservices",
+    "cmssmarteditwebservices",
+    "cmsoccaddon",
+    "pcmbackofficesamplesaddon",
+    "secureportaladdon",
+    "kymaintegrationbackoffice",
+    "yb2bacceleratorstorefront"
+
+    ],
+	
+  	"useConfig": {
+        "properties": [{
+            "location": "/config/local.properties"
+        }]
+    },
+
+    "storefrontAddons": [
+        
+        {    
+
+            "addon": "b2bacceleratoraddon",
+            "storefront": "yb2bacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "commerceorgaddon",
+            "storefront": "yb2bacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        }
+		
+    ],
+
+
+    "aspects": [
+	{
+            "name": "backoffice",
+            "properties": [{
+                    "key": "backoffice.test.property.1",
+                    "value": "backoffice.test.property.1.value"
+                },
+                {
+                    "key": "backoffice.test.property.2",
+                    "value": "backoffice.test.property.2.value"
+                }
+            ],
+            "webapps": [{
+                    "name": "hac",
+                    "contextPath": "/hac"
+                },
+                {
+                    "name": "mediaweb",
+                    "contextPath": "/medias"
+                },
+                {
+                    "name": "backoffice",
+                    "contextPath": "/backoffice"
+                },
+                {
+                    "name": "cmscockpit",
+                    "contextPath": "/cmscockpit"
+                },
+				{
+				    "name": "smartedit",
+                    "contextPath": "/smartedit"
+				}
+            ]
+        },
+
+        {
+            "name": "accstorefront",
+            "properties": [{
+                    "key": "spring.session.enabled",
+                    "value": "true"
+                },
+                {
+                    "key": "storefrontContextRoot",
+                    "value": ""
+                },
+                {
+                    "key": "hac.webroot",
+                    "value": "/hac"
+                }
+
+
+
+            ],
+            "webapps": [{
+                    "name": "mediaweb",
+                    "contextPath": "/medias"
+                },
+                {
+                    "name": "hac",
+                    "contextPath": "/hac"
+                },
+                {
+                    "name": "yacceleratorstorefront",
+                    "contextPath": ""
+                },
+                {
+                    "name": "yb2bacceleratorstorefront",
+                    "contextPath": ""
+                },
+                {
+                    "name": "oauth2",
+                    "contextPath": "/authorizationserver"
+                },
+                {
+                    "name": "gigya",
+                    "contextPath": "/gigyaraas"
+                }
+                
+            ]
+        },
+        {
+            "name": "backgroundProcessing",
+            "properties": [{
+                    "key": "cluster.node.groups",
+                    "value": "integration,yHotfolderCandidate"
+                },
+                {
+                    "key": "task.workers.max",
+                    "value": "40"
+                },
+                {
+                    "key": "impex.import.workers",
+                    "value": "8"
+                },
+                {
+                    "key": "catalog.sync.workers",
+                    "value": "8"
+                },
+                {
+                    "key": "task.polling.interval",
+                    "value": "1"
+                },
+                {
+                    "key": "processengine.process.canjoinpreviousnode.default",
+                    "value": "true"
+                }
+						   
+            ],
+            "webapps": [
+				{
+                    "name": "hac",
+                    "contextPath": ""
+                },
+                {
+                    "name": "mediaweb",
+                    "contextPath": "/medias"
+                },
+                {   "name": "oauth"
+
+                }
+            ]
+        },
+		{
+			"name": "api",
+			"properties": [
+			{
+				"key":"xss.filter.header.X-Frame-Options",
+				"value":""
+			}
+			],
+			"webapps": [{
+                "name": "hac",
+                "contextPath": "/hac"
+            },
+			{
+				"name": "ycommercewebservices",
+				"contextPath": "/rest"
+			},
+			{
+				"name": "oauth2",
+				"contextPath": "/authorizationserver"
+			},
+			{
+				"name": "cmswebservices",
+				"contextPath": "/cmswebservices"
+			},
+			{
+				"name": "permissionswebservices",
+				"contextPath": "/permissionswebservices"
+			}	
+		]
+		}
+	]
+}
