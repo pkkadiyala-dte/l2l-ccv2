@@ -1,5 +1,6 @@
 {
-    "commerceSuiteVersion": "1905.12",
+    "commerceSuiteVersion": "1905",
+    "useCloudExtensionPack": true,
     "extensions": [
 
 	"commerceservicesbackoffice",
@@ -83,8 +84,19 @@
         "l2lb2bstorefront",
         "l2lbackoffice",
         "singlestacksapcpiorderexchange",
-        "singlestacksapcpiorderexchangeb2b"
-
+        "singlestacksapcpiorderexchangeb2b",
+	"sapymktcommon",
+        "sapymktclickstream",
+        "sapymktrecommendation",
+        "sapymktrecommendationaddon",
+        "sapymktrecommendationbuffer",
+        "sapymktrecommendationwebservices",
+        "sapymktsegmentationb2b",
+        "sapymktsegmentation",
+        "sapymktsegmentationwebservices",
+        "sapymktconsent",
+        "personalizationymkt
+	
     ],
 	
   	"useConfig": {
