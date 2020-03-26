@@ -290,10 +290,7 @@
           "name": "oauth2",
           "contextPath": "/authorizationserver"
         },
-        {
-          "name": "cmswebservices",
-          "contextPath": "/cmswebservices"
-        },
+       
         {
           "name": "smartedit",
           "contextPath": "/smartedit"
