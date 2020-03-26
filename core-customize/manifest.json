@@ -113,6 +113,16 @@
             "storefront": "l2lb2bstorefront",
             "template": "yacceleratorstorefront"
         },
+ {
+         "addon": "smarteditaddon",
+         "storefront": "l2lb2bstorefront",
+         "template": "yacceleratorstorefront"
+         },
+ {
+         "addon": "smarteditaddon",
+         "storefront": "l2lstorefront",
+         "template": "yacceleratorstorefront"
+         },
         {    
 
             "addon": "b2bacceleratoraddon",
@@ -262,6 +272,10 @@
 				"name": "ycommercewebservices",
 				"contextPath": "/rest"
 			},
+ {
+                    "name": "cmswebservices",
+                    "contextPath": "/cmswebservices"
+                },
 			{
 				"name": "oauth2",
 				"contextPath": "/authorizationserver"
