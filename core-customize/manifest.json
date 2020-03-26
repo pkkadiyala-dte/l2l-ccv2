@@ -95,7 +95,8 @@
     "sapymktsegmentation",
     "sapymktsegmentationwebservices",
     "sapymktconsent",
-    "personalizationymkt"
+    "personalizationymkt",
+    "sapymktdatareplication"
 
   ],
 
