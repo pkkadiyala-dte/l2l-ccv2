@@ -97,6 +97,12 @@
     "sapymktconsent",
     "personalizationymkt",
     "sapymktdatareplication",
+    "merchandisingaddon",
+    "merchandisingcmswebservices",
+    "merchandisingsmartedit",
+    "merchandisingservices",
+    "merchandisingservicesbackoffice",
+    "merchandisingstorefrontsampledataaddon",
     "gigyaloginaddon",
     "gigyabackoffice",
     "gigyab2bloginaddon",
@@ -133,7 +139,7 @@
       "storefront": "l2lstorefront",
       "template": "yacceleratorstorefront"
     },
-{
+    {
       "addon": "gigyaloginaddon",
       "storefront": "l2lstorefront",
       "template": "yacceleratorstorefront"
@@ -151,6 +157,30 @@
     {
 
       "addon": "b2bacceleratoraddon",
+      "storefront": "l2lb2bstorefront",
+      "template": "yacceleratorstorefront"
+    },
+    {
+
+      "addon": "profiletagaddon",
+      "storefront": "l2lb2bstorefront",
+      "template": "yacceleratorstorefront"
+    },
+    {
+
+      "addon": "profiletagaddon",
+      "storefront": "l2lstorefront",
+      "template": "yacceleratorstorefront"
+    },
+    {
+
+      "addon": "merchandisingaddon",
+      "storefront": "l2lstorefront",
+      "template": "yacceleratorstorefront"
+    },
+    {
+
+      "addon": "merchandisingaddon",
       "storefront": "l2lb2bstorefront",
       "template": "yacceleratorstorefront"
     },
