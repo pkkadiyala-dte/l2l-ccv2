@@ -96,7 +96,11 @@
     "sapymktsegmentationwebservices",
     "sapymktconsent",
     "personalizationymkt",
-    "sapymktdatareplication"
+    "sapymktdatareplication",
+    "gigyaloginaddon",
+    "gigyabackoffice",
+    "gigyab2bloginaddon",
+    "gigyab2bbackoffice"
 
   ],
 
@@ -120,7 +124,17 @@
       "template": "yacceleratorstorefront"
     },
     {
+      "addon": "gigyab2bloginaddon",
+      "storefront": "l2lb2bstorefront",
+      "template": "yacceleratorstorefront"
+    },
+    {
       "addon": "smarteditaddon",
+      "storefront": "l2lstorefront",
+      "template": "yacceleratorstorefront"
+    },
+{
+      "addon": "gigyaloginaddon",
       "storefront": "l2lstorefront",
       "template": "yacceleratorstorefront"
     },
