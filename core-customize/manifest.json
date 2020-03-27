@@ -373,6 +373,11 @@
           "contextPath": "/personalizationwebservices"
         },
 
+       {
+          "name": "odata2webservices",
+          "contextPath": "/odata2webservices"
+        },
+
         {
           "name": "personalizationsearchsmartedit",
           "contextPath": "/personalizationsearchsmartedit"
