@@ -256,6 +256,10 @@
           "name": "hac",
           "contextPath": "/hac"
         },
+	{
+          "name": "acceleratorservices",
+          "contextPath": "/acceleratorservices"
+        },
         {
           "name": "l2lstorefront",
           "contextPath": "/l2lstorefront"
