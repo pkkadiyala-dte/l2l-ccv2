@@ -200,9 +200,21 @@
       "template": "yacceleratorstorefront"
     },
     {
+
       "addon": "commerceorgaddon",
       "storefront": "l2lb2bstorefront",
       "template": "yacceleratorstorefront"
+    },
+    {
+
+      "addon": "acceleratorwebservicesaddon",
+      "storefront": "ycommercewebservices",
+      "template": "ycommercewebservices"
+    },
+    {
+      "addon": "cmsoccaddon",
+      "storefront": "ycommercewebservices",
+      "template": "ycommercewebservices"
     }
 
   ],
