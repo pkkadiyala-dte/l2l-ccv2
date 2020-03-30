@@ -108,7 +108,10 @@
     "gigyab2bloginaddon",
     "gigyab2bbackoffice",
     "gigyacpicustomerexchangemdmb2b",
-    "gigyacpicustomerexchangemdm"
+    "gigyacpicustomerexchangemdm",
+    "personalizationsearchsamplesaddon",
+    "personalizationaddon",
+    "smarteditaddon"
 
   ],
 
@@ -129,6 +132,16 @@
     {
       "addon": "smarteditaddon",
       "storefront": "l2lb2bstorefront",
+      "template": "yacceleratorstorefront"
+    },
+    {
+      "addon":"personalizationsearchsamplesaddon",
+      "storefront": "l2lb2bstorefront",
+      "template": "yacceleratorstorefront"
+    },
+    {
+      "addon":"personalizationsearchsamplesaddon",
+      "storefront": "l2lstorefront",
       "template": "yacceleratorstorefront"
     },
     {
