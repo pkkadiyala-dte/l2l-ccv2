@@ -36,9 +36,7 @@
     "customerticketingaddon",
     "customersupportbackoffice",
     "profiletagaddon",
-    "profileservices",
-    "textfieldconfiguratortemplatebackoffice",
-    "textfieldconfiguratortemplateaddon",
+    "profileservices",   
     "cmswebservices",
     "smarteditwebservices",
     "cmssmarteditwebservices",
@@ -111,7 +109,12 @@
     "gigyacpicustomerexchangemdm",
     "personalizationsearchsamplesaddon",
     "personalizationaddon",
-    "smarteditaddon"
+    "smarteditaddon",
+    "previewwebservices",
+    "personalizationwebservices",
+    "personalizationsearchsmartedit",
+    "personalizationpromotionssmartedit",
+    "personalizationsmartedit"
 
   ],
 
