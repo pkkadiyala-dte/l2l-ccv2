@@ -379,6 +379,14 @@
           "name": "cmssmartedit",
           "contextPath": "/cmssmartedit"
         },
+	{
+          "name": "mediaweb",
+          "contextPath": "/medias"
+        },
+	{
+          "name": "l2lstorefront",
+          "contextPath": "/l2lstorefront"
+        },
 
         {
           "name": "smarteditwebservices",
