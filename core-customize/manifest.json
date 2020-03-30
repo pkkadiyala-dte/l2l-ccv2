@@ -391,7 +391,12 @@
         {
           "name": "permissionswebservices",
           "contextPath": "/permissionswebservices"
-        }
+        },
+	{ 
+	 "name": "merchandisingsmartedit",
+	 "contextPath": "/merchandisingsmartedit"
+	}
+
       ]
     }
   ]
