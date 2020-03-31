@@ -296,6 +296,10 @@
           "name": "l2lb2bstorefront",
           "contextPath": "/l2lb2bstorefront"
         },
+	{
+	 "name" :"smartedit",
+         "contextPath": "/smartedit"
+        },
         {
           "name": "oauth2",
           "contextPath": "/authorizationserver"
