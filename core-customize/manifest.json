@@ -129,18 +129,8 @@
       "template": "yacceleratorstorefront"
     },
     {
-      "addon": "smarteditaddon",
-      "storefront": "l2lb2bstorefront",
-      "template": "yacceleratorstorefront"
-    },
-    {
       "addon": "personalizationsearchsamplesaddon",
-      "storefront": "l2lb2bstorefront",
-      "template": "yacceleratorstorefront"
-    },
-    {
-      "addon": "personalizationsearchsamplesaddon",
-      "storefront": "l2lstorefront",
+      "storefronts": ["l2lstorefront","l2lb2bstorefront"],
       "template": "yacceleratorstorefront"
     },
     {
@@ -150,7 +140,7 @@
     },
     {
       "addon": "smarteditaddon",
-      "storefront": "l2lstorefront",
+      "storefronts": ["l2lb2bstorefront","l2lstorefront"],
       "template": "yacceleratorstorefront"
     },
     {
@@ -160,12 +150,7 @@
     },
     {
       "addon": "personalizationaddon",
-      "storefront": "l2lstorefront",
-      "template": "yacceleratorstorefront"
-    },
-    {
-      "addon": "personalizationaddon",
-      "storefront": "l2lb2bstorefront",
+      "storefronts": ["l2lb2bstorefront","l2lstorefront"],
       "template": "yacceleratorstorefront"
     },
     {
@@ -175,22 +160,12 @@
     },
     {
       "addon": "profiletagaddon",
-      "storefront": "l2lb2bstorefront",
-      "template": "yacceleratorstorefront"
-    },
-    {
-      "addon": "profiletagaddon",
-      "storefront": "l2lstorefront",
+      "storefronts": ["l2lstorefront","l2lb2bstorefront"],
       "template": "yacceleratorstorefront"
     },
     {
       "addon": "merchandisingaddon",
-      "storefront": "l2lstorefront",
-      "template": "yacceleratorstorefront"
-    },
-    {
-      "addon": "merchandisingaddon",
-      "storefront": "l2lb2bstorefront",
+      "storefronts": ["l2lb2bstorefront","l2lstorefront"],
       "template": "yacceleratorstorefront"
     },
     {
