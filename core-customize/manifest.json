@@ -155,7 +155,7 @@
     },
     {
       "addon": "gigyaloginaddon",
-      "storefront": "l2lstorefront",
+      "storefront": ["l2lstorefront","l2lb2bstorefront"],
       "template": "yacceleratorstorefront"
     },
     {
