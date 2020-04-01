@@ -376,6 +376,10 @@
           "contextPath": "/l2lstorefront"
         },
         {
+          "name": "l2lb2bstorefront",
+          "contextPath": "/l2lb2bstorefront"
+        },
+        {
           "name": "smarteditwebservices",
           "contextPath": "/smarteditwebservices"
         },
