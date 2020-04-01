@@ -2,7 +2,6 @@
   "commerceSuiteVersion": "1905",
   "useCloudExtensionPack": true,
   "extensions": [
-
     "commerceservicesbackoffice",
     "solrfacetsearchbackoffice",
     "solrserver",
@@ -36,7 +35,7 @@
     "customerticketingaddon",
     "customersupportbackoffice",
     "profiletagaddon",
-    "profileservices",   
+    "profileservices",
     "cmswebservices",
     "smarteditwebservices",
     "cmssmarteditwebservices",
@@ -115,19 +114,16 @@
     "personalizationsearchsmartedit",
     "personalizationpromotionssmartedit",
     "personalizationsmartedit"
-
   ],
-
   "useConfig": {
-    "properties": [{
-      "location": "/config/local.properties"
-    }]
+    "properties": [
+      {
+        "location": "/config/local.properties"
+      }
+    ]
   },
-
   "storefrontAddons": [
-
     {
-
       "addon": "secureportaladdon",
       "storefront": "l2lb2bstorefront",
       "template": "yacceleratorstorefront"
@@ -138,12 +134,12 @@
       "template": "yacceleratorstorefront"
     },
     {
-      "addon":"personalizationsearchsamplesaddon",
+      "addon": "personalizationsearchsamplesaddon",
       "storefront": "l2lb2bstorefront",
       "template": "yacceleratorstorefront"
     },
     {
-      "addon":"personalizationsearchsamplesaddon",
+      "addon": "personalizationsearchsamplesaddon",
       "storefront": "l2lstorefront",
       "template": "yacceleratorstorefront"
     },
@@ -173,43 +169,36 @@
       "template": "yacceleratorstorefront"
     },
     {
-
       "addon": "b2bacceleratoraddon",
       "storefront": "l2lb2bstorefront",
       "template": "yacceleratorstorefront"
     },
     {
-
       "addon": "profiletagaddon",
       "storefront": "l2lb2bstorefront",
       "template": "yacceleratorstorefront"
     },
     {
-
       "addon": "profiletagaddon",
       "storefront": "l2lstorefront",
       "template": "yacceleratorstorefront"
     },
     {
-
       "addon": "merchandisingaddon",
       "storefront": "l2lstorefront",
       "template": "yacceleratorstorefront"
     },
     {
-
       "addon": "merchandisingaddon",
       "storefront": "l2lb2bstorefront",
       "template": "yacceleratorstorefront"
     },
     {
-
       "addon": "commerceorgaddon",
       "storefront": "l2lb2bstorefront",
       "template": "yacceleratorstorefront"
     },
     {
-
       "addon": "acceleratorwebservicesaddon",
       "storefront": "ycommercewebservices",
       "template": "ycommercewebservices"
@@ -219,26 +208,25 @@
       "storefront": "ycommercewebservices",
       "template": "ycommercewebservices"
     }
-
   ],
-
-
   "aspects": [
     {
       "name": "backoffice",
-      "properties": [{
-        "key": "backoffice.test.property.1",
-        "value": "backoffice.test.property.1.value"
-      },
+      "properties": [
+        {
+          "key": "backoffice.test.property.1",
+          "value": "backoffice.test.property.1.value"
+        },
         {
           "key": "backoffice.test.property.2",
           "value": "backoffice.test.property.2.value"
         }
       ],
-      "webapps": [{
-        "name": "hac",
-        "contextPath": "/hac"
-      },
+      "webapps": [
+        {
+          "name": "hac",
+          "contextPath": "/hac"
+        },
         {
           "name": "mediaweb",
           "contextPath": "/medias"
@@ -257,13 +245,13 @@
         }
       ]
     },
-
     {
       "name": "accstorefront",
-      "properties": [{
-        "key": "spring.session.enabled",
-        "value": "true"
-      },
+      "properties": [
+        {
+          "key": "spring.session.enabled",
+          "value": "true"
+        },
         {
           "key": "storefrontContextRoot",
           "value": ""
@@ -272,19 +260,17 @@
           "key": "hac.webroot",
           "value": "/hac"
         }
-
-
-
       ],
-      "webapps": [{
-        "name": "mediaweb",
-        "contextPath": "/medias"
-      },
+      "webapps": [
+        {
+          "name": "mediaweb",
+          "contextPath": "/medias"
+        },
         {
           "name": "hac",
           "contextPath": "/hac"
         },
-	{
+        {
           "name": "acceleratorservices",
           "contextPath": "/acceleratorservices"
         },
@@ -296,23 +282,23 @@
           "name": "l2lb2bstorefront",
           "contextPath": "/l2lb2bstorefront"
         },
-	{
-	 "name" :"smartedit",
-         "contextPath": "/smartedit"
+        {
+          "name": "smartedit",
+          "contextPath": "/smartedit"
         },
         {
           "name": "oauth2",
           "contextPath": "/authorizationserver"
         }
-
       ]
     },
     {
       "name": "backgroundProcessing",
-      "properties": [{
-        "key": "cluster.node.groups",
-        "value": "integration,yHotfolderCandidate"
-      },
+      "properties": [
+        {
+          "key": "cluster.node.groups",
+          "value": "integration,yHotfolderCandidate"
+        },
         {
           "key": "task.workers.max",
           "value": "40"
@@ -333,7 +319,6 @@
           "key": "processengine.process.canjoinpreviousnode.default",
           "value": "true"
         }
-
       ],
       "webapps": [
         {
@@ -344,8 +329,8 @@
           "name": "mediaweb",
           "contextPath": "/medias"
         },
-        {   "name": "oauth"
-
+        {
+          "name": "oauth"
         }
       ]
     },
@@ -353,14 +338,15 @@
       "name": "api",
       "properties": [
         {
-          "key":"xss.filter.header.X-Frame-Options",
-          "value":""
+          "key": "xss.filter.header.X-Frame-Options",
+          "value": ""
         }
       ],
-      "webapps": [{
-        "name": "hac",
-        "contextPath": "/hac"
-      },
+      "webapps": [
+        {
+          "name": "hac",
+          "contextPath": "/hac"
+        },
         {
           "name": "ycommercewebservices",
           "contextPath": "/rest"
@@ -368,35 +354,31 @@
         {
           "name": "cmswebservices",
           "contextPath": "/cmswebservices"
-        },       
+        },
         {
           "name": "oauth2",
           "contextPath": "/authorizationserver"
         },
-       
         {
           "name": "smartedit",
           "contextPath": "/smartedit"
         },
-
         {
           "name": "cmssmartedit",
           "contextPath": "/cmssmartedit"
         },
-	{
+        {
           "name": "mediaweb",
           "contextPath": "/medias"
         },
-	{
+        {
           "name": "l2lstorefront",
           "contextPath": "/l2lstorefront"
         },
-
         {
           "name": "smarteditwebservices",
           "contextPath": "/smarteditwebservices"
         },
-
         {
           "name": "cmssmarteditwebservices",
           "contextPath": "/cmssmarteditwebservices"
@@ -405,7 +387,6 @@
           "name": "personalizationsmartedit",
           "contextPath": "/personalizationsmartedit"
         },
-
         {
           "name": "personalizationpromotionssmartedit",
           "contextPath": "/personalizationpromotionssmartedit"
@@ -418,12 +399,10 @@
           "name": "personalizationwebservices",
           "contextPath": "/personalizationwebservices"
         },
-
-       {
+        {
           "name": "odata2webservices",
           "contextPath": "/odata2webservices"
         },
-
         {
           "name": "personalizationsearchsmartedit",
           "contextPath": "/personalizationsearchsmartedit"
@@ -432,11 +411,93 @@
           "name": "permissionswebservices",
           "contextPath": "/permissionswebservices"
         },
-	{ 
-	 "name": "merchandisingsmartedit",
-	 "contextPath": "/merchandisingsmartedit"
-	}
-
+        {
+          "name": "merchandisingsmartedit",
+          "contextPath": "/merchandisingsmartedit"
+        }
+      ]
+    },
+    {
+      "name": "smartedit",
+      "properties": [
+        {
+          "key": "xss.filter.header.X-Frame-Options",
+          "value": "SAMEORIGIN"
+        }
+      ],
+      "webapps": [
+        {
+          "name": "ycommercewebservices",
+          "contextPath": "/rest"
+        },
+        {
+          "name": "cmswebservices",
+          "contextPath": "/cmswebservices"
+        },
+        {
+          "name": "oauth2",
+          "contextPath": "/authorizationserver"
+        },
+        {
+          "name": "smartedit",
+          "contextPath": "/smartedit"
+        },
+        {
+          "name": "cmssmartedit",
+          "contextPath": "/cmssmartedit"
+        },
+        {
+          "name": "mediaweb",
+          "contextPath": "/medias"
+        },
+        {
+          "name": "l2lstorefront",
+          "contextPath": "/l2lstorefront"
+        },
+        {
+          "name": "l2lb2bstorefront",
+          "contextPath": "/l2lb2bstorefront"
+        },
+        {
+          "name": "smarteditwebservices",
+          "contextPath": "/smarteditwebservices"
+        },
+        {
+          "name": "cmssmarteditwebservices",
+          "contextPath": "/cmssmarteditwebservices"
+        },
+        {
+          "name": "personalizationsmartedit",
+          "contextPath": "/personalizationsmartedit"
+        },
+        {
+          "name": "personalizationpromotionssmartedit",
+          "contextPath": "/personalizationpromotionssmartedit"
+        },
+        {
+          "name": "previewwebservices",
+          "contextPath": "/previewwebservices"
+        },
+        {
+          "name": "personalizationwebservices",
+          "contextPath": "/personalizationwebservices"
+        },
+        {
+          "name": "odata2webservices",
+          "contextPath": "/odata2webservices"
+        },
+        {
+          "name": "personalizationsearchsmartedit",
+          "contextPath": "/personalizationsearchsmartedit"
+        },
+        {
+          "name": "permissionswebservices",
+          "contextPath": "/permissionswebservices"
+        },
+        {
+          "name": "merchandisingsmartedit",
+          "contextPath": "/merchandisingsmartedit"
+        }
       ]
     }
   ]
