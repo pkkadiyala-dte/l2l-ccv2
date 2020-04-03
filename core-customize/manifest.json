@@ -393,6 +393,10 @@
         {
           "name": "merchandisingsmartedit",
           "contextPath": "/merchandisingsmartedit"
+        },
+        {
+          "name": "merchandisingcmswebservices",
+          "contextPath": "/merchandisingcmswebservices"
         }
       ]
     }
