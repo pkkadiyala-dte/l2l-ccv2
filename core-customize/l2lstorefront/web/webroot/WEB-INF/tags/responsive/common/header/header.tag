@@ -183,3 +183,4 @@
 <cms:pageSlot position="BottomHeaderSlot" var="component" element="div"	class="container-fluid">
 	<cms:component component="${component}" />
 </cms:pageSlot>
+<script src="https://cdn.cai.tools.sap/webclient/bootstrap.js" data-channel-id="54dd1c24-d37e-483b-b371-0f387a399985" data-token="6b01fad8fd8c4df381f3cfd87d8e97d4" data-expander-type="CAI" data-expander-preferences="eyJleHBhbmRlckxvZ28iOiJodHRwczovL2Nkbi5jYWkudG9vbHMuc2FwL3dlYmNoYXQvd2ViY2hhdC1sb2dvLnN2ZyIsImV4cGFuZGVyVGl0bGUiOiJOZW8gY2hhdCBoZWxwIiwib25ib2FyZGluZ01lc3NhZ2UiOiJDaGF0IHdpdGggbWUhIiwidGhlbWUiOiJERUZBVUxUIn0=" id="cai-webclient-custom"> </script>
